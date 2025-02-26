@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+	<item
+        android:id="@+id/newf"
+        android:icon="@drawable/add"
+		android:showAsAction="always"/>
+	
+	<item
+		android:id="@+id/save"
+		android:icon="@drawable/save"
+		android:showAsAction="always"/>
+
+	<item
+        android:id="@+id/setting"
+        android:title="Settings"/>
+	
+</menu>

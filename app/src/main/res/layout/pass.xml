@@ -1,0 +1,103 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+	android:background="#5555aa"
+	android:gravity="center"
+    android:orientation="vertical">
+	
+	<TextView
+		android:fontFamily="cursive"
+		android:textColor="#ffffff"
+		android:textSize="30px"
+		android:id="@+id/passTextView"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"/>
+	
+	<LinearLayout
+		android:layout_marginBottom="-200px"
+		android:layout_margin="20px"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:gravity="top"
+		android:orientation="vertical">
+		
+	<Button
+		android:shadowDx="10"
+		android:shadowDy="10"
+		android:text="1"
+		android:onClick="btn"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"/>
+	
+	<Button
+		android:text="2"
+		android:onClick="btn2"
+		android:layout_marginTop="-85px"
+		android:layout_marginLeft="180px"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"/>
+	
+	<Button
+		android:text="3"
+		android:onClick="btn3"
+		android:layout_marginTop="-85px"
+		android:layout_marginLeft="360px"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"/>
+	
+	<Button
+		android:text="4"
+		android:onClick="btn4"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"/>
+	
+	<Button
+		android:text="5"
+		android:onClick="btn5"
+		android:layout_marginTop="-85px"
+		android:layout_marginLeft="180px"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"/>
+	
+	<Button
+		android:text="6"
+		android:onClick="btn6"
+		android:layout_marginTop="-85px"
+		android:layout_marginLeft="360px"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"/>
+	
+	<Button
+		android:text="7"
+		android:onClick="btn7"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"/>
+	
+	<Button
+		android:text="8"
+		android:onClick="btn8"
+		android:layout_marginTop="-85px"
+		android:layout_marginLeft="180px"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"/>
+	
+	<Button
+		android:text="9"
+		android:onClick="btn9"
+		android:layout_marginTop="-85px"
+		android:layout_marginLeft="360px"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"/>
+	</LinearLayout>
+	
+
+	<TextView
+		android:layout_marginBottom="-490px"
+		android:textColor="#003f11"
+		android:textSize="24px"
+		android:text="forgot password?"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"/>
+
+    
+</LinearLayout>

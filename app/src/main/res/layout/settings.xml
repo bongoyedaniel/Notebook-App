@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+	android:background="#222222"
+	android:gravity="top"
+    android:orientation="vertical">
+
+	
+	
+	<LinearLayout
+		android:background="#444444"
+		android:layout_marginTop="1px"
+		android:padding="5px"
+		android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="100px">
+		<TextView
+			
+			android:layout_marginLeft="10px"
+			android:padding="5px"
+			android:textSize="22px"
+			android:textColor="#eeeeee"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Trigger backup  (Last sync : 1/12/2023)"/>
+		<TextView
+			android:layout_marginTop="0px"
+			android:layout_marginLeft="50px"
+			android:textSize="20px"
+			android:padding="5px"
+			android:textColor="#aaaaaa"
+			android:layout_width="wrap_content"
+			android:layout_height="fill_parent"
+			android:text="Deletes recent data and uses offline saved data if available"/>
+	</LinearLayout>
+	
+	<LinearLayout
+		android:background="#444444"
+		android:layout_marginTop="1px"
+		android:padding="5px"
+		android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		<TextView
+			android:layout_marginLeft="10px"
+			android:padding="5px"
+			android:textSize="22px"
+			android:textColor="#eeeeee"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Change password"/>
+		<EditText
+			android:hint="pass"
+			android:singleLine="true"
+			android:maxLength="4"
+			android:id="@+id/mainEditText"
+			android:layout_width="200px"
+			android:layout_height="wrap_content"/>
+		<Button
+			android:onClick="savebutton"
+			android:text="Savepass"
+			android:layout_marginLeft="360px"
+			android:layout_marginTop="-80px"
+			android:layout_width="180px"
+			android:layout_height="80px"/>
+	</LinearLayout>
+	
+	
+	
+</LinearLayout>

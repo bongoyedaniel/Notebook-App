@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<resources>
+		<color name="black" type="color">#222222</color>
+		<color name="grey" type="color">#555555</color>
+		<color name="drkwhite" type="color">#efefef</color>
+		<color name="dd" type="color">#777777</color>
+		</resources>
